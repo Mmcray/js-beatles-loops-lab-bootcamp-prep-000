@@ -21,7 +21,7 @@ function iLoveTheBeatles(n) {
   var love = [];
   do {
    love.push("I love the Beatles!");
-   n++;
+   parseInt(n++);
   }
   while (n < 15);
 }
